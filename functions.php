@@ -13,8 +13,9 @@
 		 'public' => true,
 		 'menu_position' => 10,
 		 'menu_icon' => 'dashicons-store',
-		 'supports' => ['thumbnail', 'title', 'editor'],
+		 'supports' => ['thumbnail', 'title', 'editor','page-attributes'],
 		 'has_archive' => true,
+		 'hierarchical' => true,
 	 ]);
  });
 
