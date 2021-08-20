@@ -15,7 +15,7 @@
 		 'menu_icon' => 'dashicons-store',
 		 'supports' => ['thumbnail', 'title', 'editor','page-attributes'],
 		 'has_archive' => true,
-		 'hierarchical' => true,
+		 'show_in_rest' => true,
 	 ]);
  });
 
